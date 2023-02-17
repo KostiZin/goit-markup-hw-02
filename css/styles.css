@@ -1,0 +1,207 @@
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header {}
+
+.header-nav {}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-logo-studio {
+    color: #2E2F42;
+}
+
+.menu {}
+
+.menu-item {}
+
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #4D5AE5;
+}
+
+
+.address {}
+
+.contact-email,
+.contact-phone-number {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.contact-email:hover,
+.contact-phone-number:focus,
+.contact-email:focus,
+.contact-phone-number:hover {
+    color: #4D5AE5;
+}
+
+
+/* Hero */
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+/* .hero-button-text:hover,
+.hero-button-text:focus {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+} */
+
+/* 2nd section - features */
+
+.features-title {
+    visibility: hidden;
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* 3rd section - we-do */
+
+.we-do-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.we-do-list {}
+
+.we-do-pic {}
+
+.we-do-image {}
+
+/* 4th section - our-team */
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-team-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.our-team-list {}
+
+.our-team-person {
+    background: #FFFFFF;
+}
+
+.our-team-image {}
+
+.our-team-person-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.our-team-person-position {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* footer */
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+.footer-logo-studio {
+    color: #F4F4FD;
+}
