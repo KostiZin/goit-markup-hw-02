@@ -218,11 +218,12 @@ body {
 .button-text {
     background: #F4F4FD;
     color: var(--accent-color);
+
 }
 
 .button-text:hover,
 .button-text:focus {
     color: #FFFFFF;
     background: #404BBF;
-
+    cursor: pointer;
 }
