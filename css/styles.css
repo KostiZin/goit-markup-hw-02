@@ -1,15 +1,20 @@
 :root {
-    --main-color: #2E2F42;
-    --secondary-color: #434455;
-    --accent-color: #4D5AE5;
+    --main-color-dark: #2E2F42;
+    --secondary-color-text: #434455;
+    --primary-brand-color: #4D5AE5;
+    --hover-active-color: #404BBF;
+    --light-mode-color: #F4F4FD;
+    --white-color: #FFFFFF;
+    --accent-color: E7E9FC;
     --main-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
+
 
 }
 
 body {
     font-family: var(--main-font-family);
-    color: var(--main-color);
+    color: var(--main-color-dark);
 }
 
 
@@ -25,7 +30,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -37,7 +41,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.description {
+.description,
+.header-footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -56,11 +61,11 @@ body {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--accent-color);
+    color: var(--primary-brand-color);
 }
 
 .header-logo-studio {
-    color: var(--main-color);
+    color: var(--main-color-dark);
 }
 
 
@@ -70,15 +75,12 @@ body {
 
 .menu-link {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
+    color: var(--main-color-dark);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--accent-color);
+    color: var(--hover-active-color);
 }
 
 
@@ -87,10 +89,7 @@ body {
 .contact-email,
 .contact-phone-number {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-color);
+    color: var(--secondary-color-text);
 
 }
 
@@ -98,42 +97,40 @@ body {
 .contact-phone-number:focus,
 .contact-email:focus,
 .contact-phone-number:hover {
-    color: var(--accent-color);
+    color: var(--hover-active-color);
 }
 
 
 /* ---------------------- Hero ------------------------- */
 
 .hero {
-    background: var(--main-color);
+    background: var(--main-color-dark);
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
 }
 
 .hero-button-text {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
+    color: var(--white-color);
+    background-color: var(--primary-brand-color);
 }
 
 .hero-button-text:hover,
 .hero-button-text:focus {
-    color: var(--accent-color);
-    background-color: #FFFFFF;
+    color: var(--hover-active-color);
+    background-color: var(--white-color);
     cursor: pointer;
 }
 
@@ -160,7 +157,7 @@ body {
 .features-subtitle {}
 
 .features-description {
-    color: var(--secondary-color);
+    color: var(--secondary-color-text);
 }
 
 /* --------------- 3rd section - we-do ----------------- */
@@ -176,7 +173,7 @@ body {
 /* -------------- 4th section - our-team ------------------ */
 
 .our-team {
-    background-color: #F4F4FD;
+    background-color: var(--light-mode-color);
 }
 
 .our-team-title {}
@@ -185,7 +182,7 @@ body {
 .our-team-list {}
 
 .our-team-item {
-    background: #FFFFFF;
+    background: var(--white-color);
 }
 
 .our-team-image {}
@@ -199,31 +196,38 @@ body {
 /* ----------------- footer ------------------ */
 
 .footer {
-    background: var(--secondary-color);
+    background: var(--secondary-color-text);
 }
 
 .footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--accent-color);
 }
 
 .footer-logo-studio {
-    color: #F4F4FD;
+    color: var(--light-mode-color);
 }
 
 /* -------------- PORTFOLIO 1st screen ---------------- */
 
 .button-text {
-    background: #F4F4FD;
-    color: var(--accent-color);
+    background: var(--light-mode-color);
+    color: var(--hover-active-color);
 
 }
 
 .button-text:hover,
 .button-text:focus {
-    color: #FFFFFF;
-    background: #404BBF;
+    color: var(--white-color);
+    background: var(--hover-active-color);
     cursor: pointer;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-subtitle {}
+
+.portfolio-description {
+    color: var(--secondary-color-text);
 }
