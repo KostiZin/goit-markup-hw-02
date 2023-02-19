@@ -32,6 +32,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .subtitle {
@@ -111,6 +112,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--white-color);
 }
 
@@ -196,7 +198,7 @@ body {
 /* ----------------- footer ------------------ */
 
 .footer {
-    background: var(--secondary-color-text);
+    background: var(--main-color-dark);
 }
 
 .footer-text {
